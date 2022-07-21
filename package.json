@@ -12,8 +12,5 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JuliaKirik/HW25-JS-NodeJS/issues"
-  },
-  "homepage": "https://github.com/JuliaKirik/HW25-JS-NodeJS#readme"
+  "type": "module"
 }

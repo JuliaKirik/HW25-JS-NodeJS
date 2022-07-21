@@ -1,5 +1,7 @@
-const Student = require('./person');
+import { Person } from './person.js';
 
-let student1 = new Student('Julia', '22', 'female', 'JS')
-
-student1.showPersone();
+export class Student extends Person {
+    constructor(name, age, gendor, interests) {
+        super(name, age, gendor, interests);
+    }
+}
